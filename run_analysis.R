@@ -37,7 +37,7 @@ names(Xdata) <- features[MeanandStandart, 2]
 Acts <- read.table("activity_labels.txt")
 
 # update values with correct activity titles
-Ydata[, 1] <- activities[Ydata[, 1], 2]
+Ydata[, 1] <- Acts[Ydata[, 1], 2]
 
 # correct column title
 names(Ydata) <- "activity"
