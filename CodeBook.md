@@ -18,3 +18,10 @@ For each record in the dataset it is provided:
 Xtrain, Ytrain, Subtrain, Xtest, Ytest, Subtest - variables containing source data.
 Xdata, Ydata, Subdata - new variables that contain merged data from datasets mentioned above.
 ## Step 2. Extract only the measurements on the mean and standard deviation for each measurement.
+New variable features contains the correct titles for Xdata, which are applied to the column titles stored in MeanandStandart 
+## Step 3. Use descriptive activity names to name the activities in the data set
+Similar set of operations was taken with the activity titles which resulted in new Acts variable
+## Step 4. Appropriately label the data set with descriptive activity names.
+Alldata binds all the data used in the model in one dataset
+## Step 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject
+Avgdata is the final dataset with the average of each veriable for each activity and subject. It is stored under name Tidydataset in .txt format as required by the instructions
